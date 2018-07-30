@@ -1,0 +1,98 @@
+/*
+Theme Name: Visionflex
+Theme URI:
+Description: Visionflex Custom Theme - Theme based on the Hody Bezel WP Theme
+ 
+Author: Ben Ward
+Author URI: http://forward.net.au
+Template: bezel-wp
+Version: 1.0.0
+*/
+
+/* Your code here */
+
+@import url("https://use.typekit.net/jdv7ylz.css");
+
+html, body, p, h1, h2, h3, h4, h5, h6, li.menu-item, #navbar.navigation-menu>li>a {
+font-family: stolzl, sans-serif;
+font-style: normal;
+font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+font-family: stolzl, sans-serif;
+font-style: normal;
+font-weight: 700;
+}
+
+.vsionflex-home-header .textwidget h2 , .vsionflex-home-header .textwidget h3 {
+    font-weight: 400;
+}
+
+.visionflex-grey {
+    color: #666;
+    font-weight: 700 !important;
+}
+
+.widget.widget_text .textwidget h3 {
+    color: #666;
+    padding-bottom: 1em;
+    font-size: 1em;
+}
+
+.number-box .number-box-content>h3 {
+    color: #fff;
+    font-size: 1.2em;
+}
+
+.number-box .number-box-content {
+    color: #95989A;
+    font-weight: 400;
+        font-size: 0.8em;
+}
+
+.inline-list>li strong {
+    min-width: 250px;
+}
+#navbar .navigation-menu li.current-menu-item.current_page_item.btn-white-text>a {
+    color: #fff !important;
+}
+
+.healthcare_issues h1{
+    padding-bottom: 0.5em;
+}
+
+.number-box {
+    /* margin : 30px 0; */
+}
+
+.number-box .number-box-content p {
+    color: #e6e6ec;
+    font-size: 1.4em;
+    margin: 1.2em;
+    padding-top: 0.5em;
+}
+
+article {
+    padding-top: 50px;
+}
+
+@media (min-width: 990px) { 
+    .footer_block {min-height:100%; position: relative; padding: 0 20px 280px 20px; max-width: 250px; font-size: 0.7em; margin:0 35px;}
+    .footer_block_pad {display: block; position: absolute; bottom: 0;}
+}
+.footer_block { max-width: 250px; font-size: 0.7em; }
+.footer_block_pad {display: block; }
+
+
+#footer a {
+    color: #fff ;
+}
+
+form.wufoo label  {
+font-family: stolzl, sans-serif;
+font-style: normal;
+font-weight: 400;
+color : green;
+}
+
